@@ -1,1 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5em;
+  margin: 10px;
+  width: 33%;
+}
